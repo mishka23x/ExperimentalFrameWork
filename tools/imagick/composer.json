@@ -1,0 +1,24 @@
+{
+    "name": "imagick",
+    "version": "3.3.0RC2",
+    "type": "extension",
+    "stability": "beta",
+    "license": [
+        "PHP License"
+    ],
+    "authors": [
+        {
+            "name": "Scott MacVicar",
+            "email": "scottmac@php.net"
+        }
+    ],
+    "description": "Provides a wrapper to the ImageMagick library.",
+    "extra": {
+        "configure-options": {
+            "with-imagick": {
+                "default": "autodetect",
+                "prompt": "Please provide the prefix of Imagemagick installation"
+            }
+        }
+    }
+}
